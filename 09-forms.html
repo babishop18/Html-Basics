@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <h2>Basic Form with Input fields</h2>
+    <div>
+        <form>
+            <p>
+                <label>Customer Name: <input type="text"></label>
+            </p>
+        <p>
+            <label>Street Address: <input type="text"></label>
+        </p>
+        <p>
+            <!-- Type= type of input
+            name is how form refers to the data
+        ID how the code can refer to the element
+    Value is where users input is stored -->
+            <!-- <input type="radio" name="size" id="size" value="size">
+            <label for="size">This is size</label>
+        </pCheckBoxes
+
+        Field set is a group of fields that interact with eachother -->
+        <fieldset>
+        <legend>Drink Size</legend>
+        
+        <p>
+            <input type="radio" name="Drink" id="Small" value="small">
+            <label for="small">Small</label><br>
+        </p>
+        <p>
+            <input type="radio" name="Drink" id="Medium" value="Medium">
+            <label for="Medium">Medium</label><br>
+        </p>
+        <p>
+            <input type="radio" name="Drink" id="Large" value="Large">
+            <label for="Large">Large</label><br>
+        </p>
+        </fieldset>
+        </form>
+        <fieldset>
+            <legend>Drink Size</legend>
+            
+            <p>
+                <input type="CheckBox" name="Small" id="Small" value="small">
+                <label for="small">Small</label>
+            </p>
+            <p>
+                <input type="CheckBox" name="Medium" id="Medium" value="Medium">
+                <label for="Medium">Medium</label>
+            </p>
+            <p>
+                <input type="checkBox" name="Large" id="Large" value="Large">
+                <label for="Large">Large</label>
+            </p>
+            </fieldset>
+
+            <Fieldset:disabled>
+                <legend>Drink Size</legend>
+            <p>
+                <input type="CheckBox" name="Drink2" id="Small" value="small">
+                <label for="small">Small</label>
+            </p>
+            <p>
+                <input type="CheckBox" name="Drink2" id="Medium" value="Medium">
+                <label for="Medium">Medium</label>
+            </p>
+            <p>
+                <input type="checkBox" name="Drink2" id="Large" value="Large">
+                <label for="Large">Large</label>
+            </p>
+        </Fieldset:disabled>
+    </div>
+</body>
+</html>
